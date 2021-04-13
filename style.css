@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+	color: navy;
+}
+
+/* visited link */
+a:visited {
+	color: navy;
+}
+
+/* mouse over link */
+a:hover {
+	color: rgba(0, 0, 128, 0.521);
+	font-weight: 600;
+}
+
+/* selected link */
+a:active {
+	color: navy;
+}
+
+.one {
+	background-image: url('grad.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 30px;
+	text-align: center;
+}
+
+.one h1{
+	font-weight: 800;
+}
+
+
+.rightOneCOntent {
+	text-align: right;
+}
+
+hr {
+	margin: auto;
+}
+
+.two {
+	padding: 50px;
+}
+
+.two h2 {
+	color: #2499A6;
+	font-weight: 800;
+}
+
+.two h5 {
+	color: #20848f;
+	font-weight: 600;
+}
+
+.textJustify {
+	text-align: justify;
+}
+
+.intrestsInline{
+	margin: 5px;
+}
+.intrestsInline div{
+	padding: 10px;
+	text-align: center;
+	background-image: url('grad.png');
+	border-radius: 30px;
+}
